@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Shanti');
+@import 'navbar.scss';
+@import 'about.scss';
+@import 'projects.scss';
+@import 'contact.scss';
+@import "font-awesome";
+
+body {
+  margin: 0;
+  color: rgba(22, 22, 29, 1);
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: rgba(#000, 0.7);
+
+  &:focus,
+  &:hover {
+    color: rgba(#000, 0.6);
+  }
+}
+
+.container-landing {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 10em;
+
+  .title {
+    order: 1;
+    padding-top: 2em;
+    font-size: 2vw;
+    font-family: 'Shanti', sans-serif;
+    max-width: 50%;
+  }
+
+  .subtitle {
+    order: 2;
+    font-size: 1.5vw;
+    max-width: 50%;
+  }
+
+  .content {
+    order: 3;
+    font-size: 1vw;
+    max-width: 50%;
+  }
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}

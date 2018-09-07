@@ -1,0 +1,16 @@
+.container-about {
+  @extend .container-landing;
+
+  .title-about {
+    @extend .title;
+  }
+
+  .subtitle-about {
+    @extend .subtitle;
+  }
+
+  .content-about {
+    @extend .content;
+    line-height: 1.7em;
+  }
+}
