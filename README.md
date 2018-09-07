@@ -8,7 +8,7 @@ Live Website: <br/>
 ## Screenshot
 -------
 
-![Landing page](images/portfolio2.png)
+![Landing page](https://res.cloudinary.com/dvveletez/image/upload/v1536302320/portfolio2.png)
 
 
 
