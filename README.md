@@ -2,7 +2,7 @@
 --------------
 A minimal design portfolio for projects.<br/>
 Live Website: <br/>
-[HERE](http://actually-receipt.surge.sh/)
+[HERE](http://milky-popcorn.surge.sh/projects.html)
 
 
 ## Screenshot
